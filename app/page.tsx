@@ -1,6 +1,6 @@
 import React from "react";
 
 function Home() {
-  return <div>This is the home page!nnn123456</div>;
+  return <div className="text-green-600">This is the home page!nnn123456</div>;
 }
 export default Home;
