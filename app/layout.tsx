@@ -1,13 +1,18 @@
+import React from "react";
 import "../styles/globals.css";
-export default function RootLayout({
-  children,
-}: {
+import Header from "./Header";
+
+interface IProps {
   children: React.ReactNode;
-}) {
+}
+export default function RootLayout({ children }: IProps) {
   return (
     <html>
       <head />
-      <body>{children}</body>
+      <body>
+        <Header />
+        <div className="p-5">{children}</div>
+      </body>
     </html>
   );
 }
