@@ -1,7 +1,7 @@
 import React from "react";
 
 function Nouns() {
-  return <div>Nouns</div>;
+  return <div>This is the noun Page!</div>;
 }
 
 export default Nouns;
