@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 
-export type Noun = {
+interface INoun{
   article: string;
   singular: string;
   plural: string;
@@ -15,7 +15,7 @@ async function NounsList() {
   return (
 <>
 
-{nouns.map((noun: Noun) => {
+{nouns.map((noun: INoun) => {
   return(
     <div  className="noun">{noun.singular}</div>
   )
