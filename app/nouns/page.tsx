@@ -1,7 +1,13 @@
 import React from "react";
+import NounsList from "./NounsList";
 
 function Nouns() {
-  return <div>This is the noun Page123!</div>;
+  return (
+    <>
+      <h2>Nouns</h2>
+      <NounsList />
+    </>
+  );
 }
 
 export default Nouns;
