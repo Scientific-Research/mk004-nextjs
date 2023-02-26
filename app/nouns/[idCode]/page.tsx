@@ -1,6 +1,12 @@
 import React from "react";
 
-function Noun({ params: { idCode } }: any) {
+type Params = {
+  params: {
+    idCode: string;
+  };
+};
+
+function Noun({ params: { idCode } }: Params) {
   return <div>Noun: {idCode}</div>;
 }
 
