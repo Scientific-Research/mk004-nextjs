@@ -1,8 +1,8 @@
-import React from "react";
-import axios from "axios";
-import { Noun } from "../../../typings";
+import React from 'react';
+import axios from 'axios';
+import { Noun } from '../../../typings';
 
-const url = "https://edwardtanguay.vercel.app/share/germanNouns.json";
+const url = 'https://edwardtanguay.vercel.app/share/germanNouns.json';
 
 type Params = {
   params: {
